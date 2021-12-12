@@ -1,0 +1,112 @@
+.body{
+    background-color:rgb(230, 218, 207) ;
+    color:black;
+    margin: 0;
+}
+.header{
+    display: grid;
+    grid-row-end: auto;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 0.75fr;
+    margin-right: 40px;
+}
+.header div{
+    text-align: right;
+    align-self: center;
+    font-weight: center;
+}
+.flex{
+    position: relative;
+    text-align: center;
+    margin-right: 6px;
+    top: 10px;
+    float: right;
+}
+
+.logo{
+    width: fit-content;
+    height: fit-content;
+}
+.myself{
+    background: rgb(204, 190, 182);
+    color: black;
+
+    display: grid;
+    grid-template-columns: 5fr auto auto;
+    justify-items: left;
+    align-items: right;
+
+    margin: 10px 0 10px 0;
+    padding: 50px 100px 50px 30px;
+}
+.myself h2{
+    width: fit-content;
+    height: fit-content;
+}
+.myself img{
+    padding-left: 10px;
+}
+._competencies h2{
+    text-align: center;
+}
+
+.content{
+    background-color: rgb(204, 190, 182);
+    position: relative;
+}
+.content h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.content p{
+    margin: 40px 40px 40px 40px;
+    font-weight: lighter;
+}
+button{
+    padding: 15px;
+    border-width: 0;
+    border-radius: 10px;
+}
+footer{
+    margin-top: 190px;
+    background-color: rgb(204, 190, 182);
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.name_of_course{
+    height: 420px;
+    width: 100%;
+    background-image: url(images/aaa.jpg);
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.name_of_course h1{
+    font-weight: bold;
+    margin:0;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.name_of_course h4{
+    font-weight: lighter;
+    margin:0;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
